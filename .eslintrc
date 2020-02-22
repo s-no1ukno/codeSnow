@@ -1,0 +1,17 @@
+{
+  "extends": ["wesbos"],
+  "rules": {
+    "no-console": 1,
+    "semi": "off",
+    "react/react-in-jsx-scope": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "semi": "never"
+      }
+    ]
+  },
+  "globals": {
+    "React": "writable"
+  }
+}
